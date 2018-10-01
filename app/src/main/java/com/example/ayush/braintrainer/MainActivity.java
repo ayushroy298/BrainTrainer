@@ -130,11 +130,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        question[0]=new Question("17 + 33 =","30","40","50","60",3);
-        question[1]=new Question("13 + 56 =","79","69","63","76",2);
-        question[2]=new Question("18 x 6 =","108","118","128","98",1);
-        question[3]=new Question("186 / 62 = ","1","2","4","3",4);
-        question[4]=new Question("310 - 92 =","208","218","222","228",2);
+        question[0]=new Question("17 + 33 =","30","80","50","60",3);
+        question[1]=new Question("13 + 56 =","79","69","93","76",2);
+        question[2]=new Question("18 x 6 =","108","111","128","98",1);
+        question[3]=new Question("186 / 62 = ","1","7","4","3",4);
+        question[4]=new Question("310 - 92 =","208","218","292","228",2);
         resultTextView=findViewById(R.id.resultTextView);
         questionTextView=findViewById(R.id.questionTextView);
         op1=findViewById(R.id.op1);
