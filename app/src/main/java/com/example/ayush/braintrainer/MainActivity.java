@@ -11,10 +11,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
-
-
     class Question
     {
         String ques,opt1,opt2,opt3,opt4;
@@ -73,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (Integer.parseInt((String) view.getTag()) == question[quesno - 1].ans)
         {
-            correctques++;
+            correctques=correctques+1;
             resultTextView.setText("Correct :)");
         }
         else
