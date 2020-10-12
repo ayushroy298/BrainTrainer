@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void codeStart()
     {
+        //Hacktober Fest
         scoreTextView.setVisibility(View.INVISIBLE);
         resultTextView.setVisibility(View.INVISIBLE);
         gridLayout.setVisibility(View.INVISIBLE);
