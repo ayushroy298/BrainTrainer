@@ -10,7 +10,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
     class Question
     {
         String ques,opt1,opt2,opt3,opt4;
