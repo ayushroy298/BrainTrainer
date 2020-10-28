@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         }
         public int getAns()
         {
+            int answernew;
             return ans;
         }
     }
