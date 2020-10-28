@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     {
         String ques,opt1,opt2,opt3,opt4;
         int ans;
-
+        int ansnew;
         public Question(String q, String o1, String o2, String o3, String o4, int a)
         {
             ques=q;
