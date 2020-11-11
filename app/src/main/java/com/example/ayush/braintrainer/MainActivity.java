@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
             public void onFinish()
             {
 
-                Toast.makeText(MainActivity.this, "Congratulations on completing the test. You scored " + correctques + "/" + totalques , Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Congratulations on completing the test. Your score is " + correctques + "/" + totalques , Toast.LENGTH_LONG).show();
                 button.setVisibility(View.VISIBLE);
                 questionTextView.setText("Click start to begin");
                 codeStart();
