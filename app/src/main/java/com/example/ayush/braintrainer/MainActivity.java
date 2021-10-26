@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     Question question[]=new Question[5];
 
     int quesno;
+    int ansno;
     TextView questionTextView;
     TextView op1,op2,op3,op4;
     int totalques;
