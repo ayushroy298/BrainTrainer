@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             ans=a;
 //
             //
+            //
         }
         public int getAns()
         {
